@@ -11,10 +11,11 @@ The project focuses on practicing **JavaScript calculations**, **DOM manipulatio
 ---
 ## 🖼️ Preview
 <p align="center">
-  <img src="images/screen1.png" width="300" height="500" alt="Main Screen" />
-  <img src="images/screen2.png" width="300" height="500" alt="Entering Value" />
-  <img src="images/screen3.png" width="300" height="500" alt="Conversion Results" />
+  <img src="images/screen1.png" width="400" height="600" alt="Main Screen" />
+  <img src="images/screen2.png" width="400" height="600" alt="Entering Value" />
+  <img src="images/screen3.png" width="400" height="600" alt="Conversion Results" />
 </p>
+
 ---
 ## 🧠 What I Learned
 - Creating conversion formulas for different unit types  
