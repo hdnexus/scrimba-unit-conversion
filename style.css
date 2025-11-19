@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #1c1c1c;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  background-color: green;
+  flex-direction: column;
+
+  align-items: center;
+  width: 550px;
+  height: 729px;
+}
+
+.up-container {
+  background-color: #6943ff;
+  width: 100%;
+  height: 285px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+button {
+  border: none;
+  width: 117px;
+  height: 42px;
+  border-radius: 5px;
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a78bfa;
+  color: white;
+  border: 1px solid white;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.conversion-container::-webkit-inner-spin-button,
+.conversion-container::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.conversion-container {
+  -moz-appearance: textfield;
+}
+
+.conversion-container {
+  width: 117px;
+  height: 83px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  background: none;
+  font-size: 58px;
+  color: white;
+  outline: none;
+}
+
+#conversion {
+  font-size: 58px;
+}
+
+.down-container {
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 444px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.converted-rectangle {
+  width: 500px;
+  height: 109px;
+  background-color: #f9fafb;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 1px rgba(68, 67, 70, 0.3);
+}
+
+.converted-rectangle:hover {
+  box-shadow: 4px 4px 4px rgba(82, 2, 241, 0.3);
+}
+
+h2 {
+  font-size: 1.1rem;
+  color: #5a537b;
+  font-weight: 500;
+}
+
+p {
+  color: #353535;
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+}
