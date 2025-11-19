@@ -47,6 +47,4 @@ The project focuses on practicing **JavaScript calculations**, **DOM manipulatio
 ```
 3. Open `index.html` in your browser
 
-Open index.html in your browser
-
 Start converting!
